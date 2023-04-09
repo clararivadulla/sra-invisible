@@ -1,0 +1,27 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+#logo {
+    width: 20vmin;
+    margin-bottom: 1vmin;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+}
+#soon {
+    font-style: italic;
+}
