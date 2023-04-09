@@ -2,7 +2,6 @@
     font-family: 'Source Code Pro', monospace;
     margin: 0;
     padding: 0;
-    background-color: #dadada;
 }
 
 body {
@@ -10,31 +9,8 @@ body {
     width: 100vw;
 }
 
-.iframe-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    pointer-events: none;
-    overflow: hidden;
-}
-
-.iframe-wrapper iframe {
-    width: 100vw;
-    height: 56.25vw;
-    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
-    min-height: 100vh;
-    min-width: 177.77vh;
-    /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 #logo {
-    width: 40vmin;
+    width: 30vmin;
     margin-bottom: 1vmin;
 }
 
@@ -43,7 +19,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, +20%);
+    transform: translate(-50%, -35%);
     justify-content: center;
     /* center horizontally */
     align-items: center;
@@ -71,6 +47,7 @@ body {
 }
 
 #sections-menu {
-    font-size: 8vmin;
+    font-size: 4vmin;
     text-transform: uppercase;
+    color: white;
 }
