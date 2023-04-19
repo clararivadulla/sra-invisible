@@ -1,27 +1,70 @@
 * {
     font-family: 'Source Code Pro', monospace;
     margin: 0;
+    padding: 0;
+}
+
+body {
+  width: 60vmax;
+  margin: auto;
 }
 
 #logo {
-    width: 20vmin;
-    margin-bottom: 1vmin;
-  }
+  width:75px;
+  margin-bottom: 1vmax;
+}
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.left-content {
+  float: left;
+  width: 50%;
+}
+
+.right-content {
+  float: right;
+  width: 50%;
+}
+
+.content h3 {
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+header {
+  margin-top: 2vmax;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5vmax;
+  font-size: 13px;
+}
+
+#social-media {
+  padding-left: 0.2vmax;
+  position: relative;
 }
 
 .content {
-    text-align: center;
+  margin-top: 50px;
 }
 
-.content img {
-    width: 100%;
+.colorist-video {
+  margin-right: 0.5vmax;
+  margin-bottom: 0.5vmax;
 }
-#soon {
-    font-style: italic;
+
+.filmmaker-video {
+  margin-right: 0.5vmax;
+  margin-bottom: 0.5vmax;
 }
