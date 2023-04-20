@@ -24,14 +24,13 @@ body {
   width: 50%;
 }
 
-.content h3 {
+.main-content h3 {
   margin-bottom: 50px;
   text-align: left;
   font-size: 17px;
   font-weight: 400;
   text-decoration: line-through;
 }
-
 
 a {
   text-decoration: none;
@@ -50,11 +49,6 @@ header {
   font-size: 13px;
 }
 
-#social-media {
-  padding-left: 0.2vmax;
-  position: relative;
-}
-
 .content {
   margin-top: 50px;
 }
@@ -65,6 +59,65 @@ header {
 }
 
 .filmmaker-video {
-  margin-right: 0.5vmax;
   margin-bottom: 0.5vmax;
+}
+form {
+  width: 60%;
+  margin: auto;
+}
+form label {
+  font-size: 13px;
+}
+form input {
+  width: 70%;
+}
+
+form textarea {
+  width: 70.5%;
+}
+
+form button {
+  border: none;
+  background-color: white;
+}
+
+form button:hover {
+  text-decoration: line-through;
+}
+
+
+.form-button {
+  text-align: right;
+  margin-right: 2%;
+}
+
+.label-div {
+  width: 25%;
+  display: inline-block;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.mail-content h3 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.about-content h3 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.about-content p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 13px;
 }
